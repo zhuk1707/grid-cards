@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #dadada;
+
+  & mark {
+    background-color: #d1ff47;
+  }
+}
+
+.cards {
+  display: grid;
+
+
+  &__item {
+  }
+}
+
+.card-product {
+  &__img {
+  }
+
+  &__info {
+  }
+
+  &__name {
+  }
+
+  &__price {
+  }
+}
